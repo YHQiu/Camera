@@ -6,7 +6,7 @@ target 'Camera' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for Camera
+  # Pods for Camera Project
   pod 'AFNetworking'
   pod 'FMDB'
   pod 'SVProgressHUD'
@@ -15,7 +15,7 @@ target 'Camera' do
   pod 'YYKit'
   pod 'Masonry'
   
-  # Pods for PrivatePods
+  # Pods PrivatePods for Camera
   pod 'HYConfig'    ,:path=> './PrivatePods/HYConfig'
   pod 'HYRoute'     ,:path=> './PrivatePods/HYRoute'
   pod 'HYCore'   ,:path=> './PrivatePods/HYCore'
