@@ -1,6 +1,0 @@
-framework module Pods_HYConfig_Tests {
-  umbrella header "Pods-HYConfig_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

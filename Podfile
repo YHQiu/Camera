@@ -7,13 +7,13 @@ target 'Camera' do
   # use_frameworks!
 
   # Pods for Camera
-#  pod 'AFNetworking'
-#  pod 'FMDB'
-#  pod 'SVProgressHUD'
-#  pod 'GPUImage'
-#  pod 'FFmpeg'
-#  pod 'YYKit'
-#  pod 'Masonry'
+  pod 'AFNetworking'
+  pod 'FMDB'
+  pod 'SVProgressHUD'
+  pod 'GPUImage'
+  pod 'FFmpeg'
+  pod 'YYKit'
+  pod 'Masonry'
   
   # Pods for PrivatePods
   pod 'HYConfig'    ,:path=> './PrivatePods/HYConfig'

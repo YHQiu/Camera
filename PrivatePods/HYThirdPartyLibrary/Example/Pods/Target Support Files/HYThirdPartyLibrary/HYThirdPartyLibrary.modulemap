@@ -1,6 +1,0 @@
-framework module HYThirdPartyLibrary {
-  umbrella header "HYThirdPartyLibrary-umbrella.h"
-
-  export *
-  module * { export * }
-}

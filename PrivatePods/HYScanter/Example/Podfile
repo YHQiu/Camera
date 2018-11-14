@@ -1,6 +1,0 @@
-use_frameworks!
-target 'HYScanter_Tests' do
-  pod 'HYScanter', :path => '../'
-  
-  
-end

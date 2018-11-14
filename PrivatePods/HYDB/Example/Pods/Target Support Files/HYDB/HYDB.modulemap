@@ -1,6 +1,0 @@
-framework module HYDB {
-  umbrella header "HYDB-umbrella.h"
-
-  export *
-  module * { export * }
-}

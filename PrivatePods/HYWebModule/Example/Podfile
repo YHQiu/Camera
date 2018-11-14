@@ -1,6 +1,0 @@
-use_frameworks!
-target 'HYWebModule_Tests' do
-  pod 'HYWebModule', :path => '../'
-  
-  
-end

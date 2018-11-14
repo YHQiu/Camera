@@ -1,6 +1,0 @@
-framework module Pods_HYThirdPartyLibrary_Tests {
-  umbrella header "Pods-HYThirdPartyLibrary_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

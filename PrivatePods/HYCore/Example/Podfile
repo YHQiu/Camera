@@ -1,6 +1,0 @@
-use_frameworks!
-target 'HYCore_Tests' do
-  pod 'HYCore', :path => '../'
-  
-  
-end

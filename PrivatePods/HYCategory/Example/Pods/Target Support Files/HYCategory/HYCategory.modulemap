@@ -1,6 +1,0 @@
-framework module HYCategory {
-  umbrella header "HYCategory-umbrella.h"
-
-  export *
-  module * { export * }
-}

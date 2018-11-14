@@ -1,6 +1,0 @@
-framework module HYRNModule {
-  umbrella header "HYRNModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

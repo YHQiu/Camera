@@ -1,6 +1,0 @@
-framework module Pods_HYCore_Tests {
-  umbrella header "Pods-HYCore_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
