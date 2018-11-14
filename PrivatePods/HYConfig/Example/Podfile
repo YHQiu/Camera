@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYConfig_Tests' do
+  pod 'HYConfig', :path => '../'
+  
+  
+end

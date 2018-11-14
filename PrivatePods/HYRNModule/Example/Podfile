@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYRNModule_Tests' do
+  pod 'HYRNModule', :path => '../'
+  
+  
+end
