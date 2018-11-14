@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYCategory_Tests' do
+  pod 'HYCategory', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYAccount_Tests' do
+  pod 'HYAccount', :path => '../'
+  
+
+end
