@@ -1,0 +1,6 @@
+framework module HYScanter {
+  umbrella header "HYScanter-umbrella.h"
+
+  export *
+  module * { export * }
+}

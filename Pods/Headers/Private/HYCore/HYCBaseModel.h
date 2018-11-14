@@ -1,0 +1,1 @@
+../../../../PrivatePods/HYCore/HYCore/Classes/HYBaseClasses/HYCBaseModel.h

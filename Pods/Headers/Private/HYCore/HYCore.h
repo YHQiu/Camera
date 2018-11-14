@@ -1,0 +1,1 @@
+../../../../PrivatePods/HYCore/HYCore/Classes/HYCore.h

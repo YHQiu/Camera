@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/HYDB
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/HYDB" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FFmpeg" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/HYAccount" "${PODS_ROOT}/Headers/Public/HYCategory" "${PODS_ROOT}/Headers/Public/HYConfig" "${PODS_ROOT}/Headers/Public/HYCore" "${PODS_ROOT}/Headers/Public/HYDB" "${PODS_ROOT}/Headers/Public/HYRNModule" "${PODS_ROOT}/Headers/Public/HYRoute" "${PODS_ROOT}/Headers/Public/HYScanter" "${PODS_ROOT}/Headers/Public/HYThirdPartyLibrary" "${PODS_ROOT}/Headers/Public/HYWebModule" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = -framework "Foundation"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../PrivatePods/HYDB
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

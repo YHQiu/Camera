@@ -1,0 +1,6 @@
+framework module HYWebModule {
+  umbrella header "HYWebModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "HYScanter",
+  "version": "0.1.0",
+  "summary": "A short description of HYScanter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YHQiu@github.com/HYScanter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YHQiu@github.com": "632244510@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YHQiu@github.com/HYScanter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYScanter/Classes/**/*",
+  "prefix_header_contents": [
+    "#import <YYKit/YYKit.h>",
+    "#import <Masonry/Masonry.h>"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AVKit"
+  ],
+  "dependencies": {
+    "YYKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "HYConfig": [
+      "~> 0.1.0"
+    ],
+    "HYCategory": [
+      "~> 0.1.0"
+    ],
+    "HYRoute": [
+      "~> 0.1.0"
+    ],
+    "HYThirdPartyLibrary": [
+      "~> 0.1.0"
+    ],
+    "HYDB": [
+      "~> 0.1.0"
+    ],
+    "HYCore": [
+      "~> 0.1.0"
+    ]
+  }
+}

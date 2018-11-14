@@ -1,0 +1,6 @@
+framework module HYConfig {
+  umbrella header "HYConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

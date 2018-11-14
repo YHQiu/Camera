@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PrivatePods/HYConfig/Example/HYConfig.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYCore/Example/HYCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYRoute/Example/HYRoute.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYCategory/Example/HYCategory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYWebModule/Example/HYWebModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYThirdPartyLibrary/Example/HYThirdPartyLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYRNModule/Example/HYRNModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYDB/Example/HYDB.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYAccount/Example/HYAccount.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrivatePods/HYScanter/Example/HYScanter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Camera.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

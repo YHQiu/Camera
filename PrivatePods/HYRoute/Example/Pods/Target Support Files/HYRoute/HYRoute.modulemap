@@ -1,0 +1,6 @@
+framework module HYRoute {
+  umbrella header "HYRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}
