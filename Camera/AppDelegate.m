@@ -19,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    //create accsess project
     [self createRootViewControllerWithApplication:application didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
