@@ -12,6 +12,7 @@
 		293BB9BF2190202E000C4E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293BB9BD2190202E000C4E72 /* LaunchScreen.storyboard */; };
 		293BB9C22190202E000C4E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293BB9C12190202E000C4E72 /* main.m */; };
 		293BB9CA219020A8000C4E72 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293BB9C9219020A8000C4E72 /* AVKit.framework */; };
+		29C56F75219E8E5200DCDA29 /* HYRouteImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C56F74219E8E5200DCDA29 /* HYRouteImplement.m */; };
 		3C5BCACC1885AF42DFFA4105 /* libPods-Camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3E44E27E23096DA29C251F /* libPods-Camera.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,8 @@
 		293BB9C02190202E000C4E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293BB9C12190202E000C4E72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		293BB9C9219020A8000C4E72 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		29C56F73219E8E5200DCDA29 /* HYRouteImplement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYRouteImplement.h; sourceTree = "<group>"; };
+		29C56F74219E8E5200DCDA29 /* HYRouteImplement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRouteImplement.m; sourceTree = "<group>"; };
 		29CBE0FF21994ED0007EC92A /* CameraPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPrefixHeader.pch; sourceTree = "<group>"; };
 		7636BAA978C48C2A8EC91B0C /* Pods-Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camera/Pods-Camera.debug.xcconfig"; sourceTree = "<group>"; };
 		8E3E44E27E23096DA29C251F /* libPods-Camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +74,8 @@
 				293BB9C02190202E000C4E72 /* Info.plist */,
 				293BB9C12190202E000C4E72 /* main.m */,
 				29CBE0FF21994ED0007EC92A /* CameraPrefixHeader.pch */,
+				29C56F73219E8E5200DCDA29 /* HYRouteImplement.h */,
+				29C56F74219E8E5200DCDA29 /* HYRouteImplement.m */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			files = (
 				293BB9C22190202E000C4E72 /* main.m in Sources */,
 				293BB9B42190202C000C4E72 /* AppDelegate.m in Sources */,
+				29C56F75219E8E5200DCDA29 /* HYRouteImplement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

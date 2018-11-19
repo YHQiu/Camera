@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		09F46AB86AB5DBD23090E121 /* Pods_HYCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F120DFC371FAEFFC933FF36 /* Pods_HYCategory_Tests.framework */; };
 		29CBE10A21994FCA007EC92A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 29CBE10721994FCA007EC92A /* .gitkeep */; };
+		29CBE14D219C1A04007EC92A /* NSNumber+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBE14C219C1A04007EC92A /* NSNumber+Compare.m */; };
+		29CBE150219C1A57007EC92A /* UIView+CreateByNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBE14F219C1A57007EC92A /* UIView+CreateByNib.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,6 +22,10 @@
 		1F120DFC371FAEFFC933FF36 /* Pods_HYCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CBE10721994FCA007EC92A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		29CBE10C21994FE7007EC92A /* HYCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCategory.h; sourceTree = "<group>"; };
+		29CBE14B219C1A04007EC92A /* NSNumber+Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Compare.h"; sourceTree = "<group>"; };
+		29CBE14C219C1A04007EC92A /* NSNumber+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Compare.m"; sourceTree = "<group>"; };
+		29CBE14E219C1A57007EC92A /* UIView+CreateByNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CreateByNib.h"; sourceTree = "<group>"; };
+		29CBE14F219C1A57007EC92A /* UIView+CreateByNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CreateByNib.m"; sourceTree = "<group>"; };
 		3BE91CE64DA98DE84A76C261 /* Pods-HYCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCategory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYCategory_Tests/Pods-HYCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				29CBE10C21994FE7007EC92A /* HYCategory.h */,
+				29CBE14B219C1A04007EC92A /* NSNumber+Compare.h */,
+				29CBE14C219C1A04007EC92A /* NSNumber+Compare.m */,
+				29CBE14E219C1A57007EC92A /* UIView+CreateByNib.h */,
+				29CBE14F219C1A57007EC92A /* UIView+CreateByNib.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -274,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CBE150219C1A57007EC92A /* UIView+CreateByNib.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				29CBE14D219C1A04007EC92A /* NSNumber+Compare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

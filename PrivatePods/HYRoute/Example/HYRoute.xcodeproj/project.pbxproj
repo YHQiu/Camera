@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CBE156219C1C3E007EC92A /* HYRouteRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBE155219C1C3E007EC92A /* HYRouteRegister.m */; };
+		29FF87E7219E506300E1611D /* HYRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FF87E6219E506300E1611D /* HYRoute.m */; };
+		29FF87EA219E508700E1611D /* UIViewController+HYRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FF87E9219E508700E1611D /* UIViewController+HYRoute.m */; };
 		462B40DB082FF61040444494 /* Pods_HYRoute_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9E35AD6A5FDA3B5968F4CC /* Pods_HYRoute_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -18,7 +21,13 @@
 /* Begin PBXFileReference section */
 		00B7F050DA6E194C0F2EF033 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0F9E35AD6A5FDA3B5968F4CC /* Pods_HYRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29CBE14321995620007EC92A /* HYRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRoute.h; sourceTree = "<group>"; };
+		29C56F79219EAB0F00DCDA29 /* HYRouteHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYRouteHeader.h; sourceTree = "<group>"; };
+		29CBE154219C1C3E007EC92A /* HYRouteRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYRouteRegister.h; sourceTree = "<group>"; };
+		29CBE155219C1C3E007EC92A /* HYRouteRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRouteRegister.m; sourceTree = "<group>"; };
+		29FF87E5219E506300E1611D /* HYRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYRoute.h; sourceTree = "<group>"; };
+		29FF87E6219E506300E1611D /* HYRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRoute.m; sourceTree = "<group>"; };
+		29FF87E8219E508700E1611D /* UIViewController+HYRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HYRoute.h"; sourceTree = "<group>"; };
+		29FF87E9219E508700E1611D /* UIViewController+HYRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HYRoute.m"; sourceTree = "<group>"; };
 		3FEE7D7ACD63391E1A837E43 /* Pods-HYRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYRoute_Tests/Pods-HYRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +71,13 @@
 		29CBE0B821991B04007EC92A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				29CBE14321995620007EC92A /* HYRoute.h */,
+				29C56F79219EAB0F00DCDA29 /* HYRouteHeader.h */,
+				29FF87E5219E506300E1611D /* HYRoute.h */,
+				29FF87E6219E506300E1611D /* HYRoute.m */,
+				29CBE154219C1C3E007EC92A /* HYRouteRegister.h */,
+				29CBE155219C1C3E007EC92A /* HYRouteRegister.m */,
+				29FF87E8219E508700E1611D /* UIViewController+HYRoute.h */,
+				29FF87E9219E508700E1611D /* UIViewController+HYRoute.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FF87E7219E506300E1611D /* HYRoute.m in Sources */,
+				29FF87EA219E508700E1611D /* UIViewController+HYRoute.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				29CBE156219C1C3E007EC92A /* HYRouteRegister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

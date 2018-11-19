@@ -7,7 +7,10 @@
 //
 
 #import <HYCore/HYCore.h>
+//HYRouteRegiter(HYGPUScanterDeviceCaptureVC)
 
 @interface HYGPUScanterDeviceCaptureVC : HYCBaseViewController
 
 @end
+
+

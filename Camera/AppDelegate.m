@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import <HYScanter/HYGPUScanterDeviceCaptureVC.h>
 
-
 @interface AppDelegate ()
 
 @end
@@ -31,6 +30,8 @@
     
     self.window.rootViewController = [HYGPUScanterDeviceCaptureVC new];
     [self.window makeKeyAndVisible];
+    
+    NSDictionary *param;
     
 }
 

@@ -10,7 +10,6 @@
 
 #import <GPUImage.h>
 #import <Photos/Photos.h>
-
 @interface HYGPUScanterDeviceCaptureVC ()
 
 @property (nonatomic, strong) GPUImageStillCamera *myCamera;
